@@ -3,23 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: david's blog
+title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: david
+author: John Doe
 language: en
-timezone: 'Asia/Shanghai'
+timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://david-clang.github.io
-root: /
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: flase # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: flase # Set to false to remove trailing '.html' from permalinks
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -41,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -97,11 +96,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fluid
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: git@github.com:david-clang/david-clang.github.io.git
-  branch: main
+  type: ''
